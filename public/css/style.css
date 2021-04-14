@@ -1,0 +1,120 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1c1a1a;
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#block button {
+	height: 50px;
+	width: 50px;
+	background: #720000;
+	color: white;
+	border: 1px solid #050505;
+}
+
+#block .close:hover {
+	border: 0;
+	background: #9e0000;
+}
+
+#block button:focus {
+	outline: 0;
+}
+
+#block .close:active {
+	border: 1px solid #050505;
+	background: #9e0000;	
+}
+
+#game-window {
+	background: #0e0e0e; 
+	width: 300px;
+	height: 410px;
+	border-radius: 20px;
+}
+
+#block {
+	display: flex;
+	flex-wrap: wrap;
+	width: 250px;
+	margin: 0 auto;
+}
+
+#game-window h3 {
+	width: 250px;
+	margin: 18px auto;
+	text-align: center;
+	color: #8a0000;
+	font-family: fantasy;
+	background: #000000;
+}
+
+#block button img {
+	height: 30px;
+	width: 30px;	
+}
+
+/* Очки и количество мин */
+#pseudo-footer {
+	background: #000000; 
+	height: 30px; 
+	width: 275px; 
+	margin: 0 auto; 
+	color: white; 
+	font-family: fantasy;
+	border-radius: 5px;
+}
+
+#pseudo-footer #score {
+	float: left; 
+	width: 100px; 
+	margin-top: 5px; 
+	margin-left: 13px;
+}
+ 
+#pseudo-footer #mines {
+	float: right;
+	width: 60px;
+	margin-top: 5px;
+	margin-right: 13px;
+}
+
+#restart {
+	display: block;
+	background: #000000;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: white;
+	font-family: fantasy;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	height: 30px;
+	width: 140px;
+	font-size: 18px;
+	transition: background-color 0.1s linear;
+}
+
+#restart:focus {
+	outline: none;
+}
+
+#restart:hover {
+	background: #2a0000;
+}
+
+#restart:active {
+	background: #4d0000;
+}
+
